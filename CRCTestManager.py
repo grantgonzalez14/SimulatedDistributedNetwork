@@ -112,39 +112,36 @@ if __name__ == "__main__":
 
     CRC_connection_tests = {
         # Tests basic connection setup, doesn't involve processing messages
-        # 15 points
-        #'1_1_TwoConnections':7, # passed
-        #'1_2_FourConnections':5, # passed
-        #'1_3_EightConnections':3, # passed
+        '1_1_TwoConnections':7,
+        '1_2_FourConnections':5,
+        '1_3_EightConnections':3,
 
         # Tests the server registration messages
-        # 15 points
-        #'2_1_TwoServers':7, # passed
-        #'2_2_FourServers':5, # passed
-        #'2_3_ElevenServers':3, # passed
+        '2_1_TwoServers':7,
+        '2_2_FourServers':5,
+        '2_3_ElevenServers':3,
 
         # Tests the user registration messages
-        # 15 points
-        #'3_1_OneServer_OneClient':3, # passed
-        #'3_2_OneServer_TwoClients':4, # passed
-        #'3_3_ThreeServers_FourClients':5, # passed
-        #'3_4_ElevenServers_EightClients':3, # passed
+        '3_1_OneServer_OneClient':3,
+        '3_2_OneServer_TwoClients':4,
+        '3_3_ThreeServers_FourClients':5,
+        '3_4_ElevenServers_EightClients':3,
 
         # Tests the chat messaging
-        #'4_1_Message_Zero_Hops':2, # passed
-        '4_2_Message_One_Hop':1.5, # passed
-        #'4_3_Message_Three_Hops':1.5, # passed
+        '4_1_Message_Zero_Hops':2,
+        '4_2_Message_One_Hop':1.5,
+        '4_3_Message_Three_Hops':1.5,
 
         # Tests status messages
-        #'5_1_WelcomeStatus':2,
-        #'5_2_DuplicateID_Server':1, # passed
-        #'5_3_DuplicateID_Client':1, # passed
-        #'5_4_UnknownID_Client':1, # passed
+        '5_1_WelcomeStatus':2,
+        '5_2_DuplicateID_Server':1,
+        '5_3_DuplicateID_Client':1,
+        '5_4_UnknownID_Client':1,
 
         # Test the client quit functionality
-        #'6_1_ClientQuit_OneServer':2, # Passed
-        #'6_2_ClientQuit_ThreeServers':1.5, # passed
-        #'6_3_ClientQuit_ElevenServers':1.5, # passed
+        '6_1_ClientQuit_OneServer':2,
+        '6_2_ClientQuit_ThreeServers':1.5,
+        '6_3_ClientQuit_ElevenServers':1.5,
     }
 
     CRC_connection_score = test_manager.run_tests(CRC_connection_tests)
