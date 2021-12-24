@@ -1,3 +1,4 @@
+# Simulated Distributed Network
 This is a simulated distributed network between 11 servers and 8 clients.
 The network is based on a heavily modified version of the internet relay chat protocol.
 It passes information along a spanning tree.
